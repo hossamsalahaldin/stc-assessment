@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 public class PermissionGroup {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //@Column(name = "id", nullable = false)
+    @Column(name = "id", nullable = false)
     private int id;
     @Column(name = "group_name")
     private String groupName;
